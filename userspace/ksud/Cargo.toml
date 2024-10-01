@@ -10,7 +10,7 @@ rust-version = "1.77.2"
 anyhow = "1"
 clap = { version = "4", features = ["derive"] }
 const_format = "0.2"
-zip = { version = "2.1.5", default-features = false }
+zip = { version = "2.2.0", default-features = false }
 zip-extensions = { version = "0.8.1", features = [
     "deflate",
     "deflate64",
@@ -31,7 +31,7 @@ extattr = "1"
 jwalk = "0.8"
 is_executable = "1"
 nom = "7"
-derive-new = "0.6"
+derive-new = "0.7"
 rust-embed = { version = "8", features = [
     "debug-embed",
     "compression", # must clean build after updating binaries
